@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gestión de Rentas de Departamentos</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Gestión de Pagos</h1>
+<!-- Memoria Serie 100 -->
+<div id="departamentos">
+  <div class="departamento" id="depto101">
+    <h2>Departamento Christian</h2>
+    <input type="date" id="fecha101">
+    <button onclick="guardarFecha(101)">Guardar</button>
+    <span class="dias-restantes" id="restantes101"></span>
+  </div>
+  <div class="departamento" id="depto102">
+    <h2>Departamento Luis</h2>
+    <input type="date" id="fecha102">
+    <button onclick="guardarFecha(102)">Guardar</button>
+    <span class="dias-restantes" id="restantes102"></span>
+  </div>
+  <div class="departamento" id="depto103">
+    <h2>Departamento 3</h2>
+    <input type="date" id="fecha103">
+    <button onclick="guardarFecha(103)">Guardar</button>
+    <span class="dias-restantes" id="restantes103"></span>
+  </div>
+  <div class="departamento" id="depto104">
+    <h2>Departamento 4</h2>
+    <input type="date" id="fecha104">
+    <button onclick="guardarFecha(104)">Guardar</button>
+    <span class="dias-restantes" id="restantes104"></span>
+  </div>
+</div>
+<div id="footer">
+  <p id="currentDate"></p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
